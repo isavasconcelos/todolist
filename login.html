@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- MENU DE TEMAS -->
+    <div class="theme-menu">
+
+        <button id="themeButton">🎨</button>
+
+        <div class="themes">
+
+            <button
+                class="default"
+                onmouseenter="previewTheme('default')"
+                onmouseleave="restoreTheme()"
+                onclick="setTheme('default')">
+            </button>
+
+            <button
+                class="pink"
+                onmouseenter="previewTheme('pink')"
+                onmouseleave="restoreTheme()"
+                onclick="setTheme('pink')">    
+            </button>
+
+            <button
+                class="blue"
+                onmouseenter="previewTheme('blue')"
+                onmouseleave="restoreTheme()"
+                onclick="setTheme('blue')">
+            </button>
+
+            <button
+                class="green"
+                onmouseenter="previewTheme('green')"
+                onmouseleave="restoreTheme()"
+                onclick="setTheme('green')">
+            </button>
+
+            <button
+                class="purple"
+                onmouseenter="previewTheme('purple')"
+                onmouseleave="restoreTheme()"
+                onclick="setTheme('purple')">
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <h1>Create an account.</h1>
+
+        <p>enter your details to create an account.</p>
+
+    </header>
+
+
+    <!-- CONTAINER PRINCIPAL -->
+    <div class="containerLogin">
+
+        <div class="formLogin">
+<p>Already have an account?</p>
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="enter your email..."
+            >
+
+            <p>Already have an account?</p>
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="enter your name..."
+            >
+
+             <p>Already have an account?</p>
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="enter your password..."
+            >
+
+           
+            <button onclick="">
+                Sign Up
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+<div class="log">
+
+              <p>Already have an account?</p>
+
+              <button onclick="">
+                Login
+            </button>
+</div>
+        
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
